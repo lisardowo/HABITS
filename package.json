@@ -9,41 +9,17 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
 
   "contributes": {
-    "viewsContainers": {
-      "activitybar": [
-        {
-          "id": "Habits-menu",
-          "title": "Habits",
-          "icon": "assets/penguin.svg"
-        }
-      ]
-    },
-    "views": {
-      "Habits-menu": [
-        {
-          "id": "package-dependencies",
-          "name": "Dependencies"
-        },
-        {
-          
-          "id": "package-outline",
-          "name": "Outline"
-        }
-      ]
-    },
+    
     "commands": [
       {
-        
-        "command": "habits.helloWorld",
-        "title": "Hello World"
-      },
-      {
-        "command" : "habits.SEXOTILIN",
-        "title": "SEXOTILIN"
+        "command": "habits.status",
+        "title": "Status"
       }
     ]
   },
