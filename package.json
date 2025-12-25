@@ -1,8 +1,11 @@
 {
-  "name": "habits",
+  "name": "Habits",
   "displayName": "Habits",
+  "icon": "assets/yakucat.png",
+  "publisher": "yakucode",
+  "repository": {"url":"https://github.com/lisardowo/HABITS"},
   "description": "A silly little extensio to keep track of my bad habits while coding in hope to get rid of them",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.107.0"
   },
