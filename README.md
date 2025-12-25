@@ -1,5 +1,5 @@
 # Habits VS Code Extension
-[Habits Extension Demo](images/demo.gif)
+![til](assets/demo.gif)
 ## Description
 
 `Habits` is a Visual Studio Code extension designed to help you maintain healthy coding habits. It keeps track of your coding session duration and provides timely reminders to take care of your well-being. Long coding sessions can be detrimental to your health, and this extension aims to mitigate the risks by encouraging you to take regular breaks, stay hydrated, and maintain a good posture.
